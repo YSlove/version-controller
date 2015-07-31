@@ -4,7 +4,7 @@
   "description": "Simplifies replace arguments with custom version number",
   "main": "index.js",
   "files": [
-    "index.js",
+    "index.js"
   ],
   "scripts": {
     "pretest": "jshint *.js spec",
