@@ -1,0 +1,42 @@
+{
+  "name": "version-controller",
+  "version": "0.0.1",
+  "description": "Simplifies replace arguments with custom version number",
+  "main": "index.js",
+  "files": [
+    "index.js",
+  ],
+  "scripts": {
+    "pretest": "jshint *.js spec",
+    "test": "jasmine-node --captureExceptions spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YSlove/version-controller.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "html",
+    "generate",
+    "version"
+  ],
+  "author": {
+    "name": "Will Yuan",
+    "email": "will.yuan@ymail.com",
+    "url": "https://github.com/YSlove/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YSlove/version-controller/issues"
+  },
+  "homepage": "https://github.com/YSlove/version-controller",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5",
+    "jshint": "^2.7.0",
+    "webpack": "^1.8.11"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.25"
+  }
+}
